@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-myversion_tuple = (0, 1, 0)
+myversion_tuple = (0, 1, 2)
 myversion = '.'.join(str(x) for x in myversion_tuple)
 
 classifiers = [
@@ -17,7 +17,9 @@ setup(
         version = myversion,
         author = '...',
         author_email = '...',
+        license = 'http://docs.python.org/license.html#terms-and-conditions-for-accessing-or-otherwise-using-python',
         description = 'Itertools recipes.',
+        url = 'http://pypi.python.org/pypi/iterutils',
+        #packages = ['iterutils'],
         long_description = long_description,
-        classifiers = classifiers,
-        packages = ['iterutils'])
+        classifiers = classifiers)
