@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-myversion_tuple = (0, 1, 2)
+myversion_tuple = (0, 1, 3)
 myversion = '.'.join(str(x) for x in myversion_tuple)
 
 classifiers = [
