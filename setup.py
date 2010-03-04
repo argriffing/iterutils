@@ -1,7 +1,8 @@
+
 from distutils.core import setup
 
-myversion_tuple = (0, 1, 5)
-myversion = '.'.join(str(x) for x in myversion_tuple)
+from iterutils import iterutils_version
+
 
 classifiers = [
         'Development Status :: 4 - Beta',
@@ -14,7 +15,7 @@ long_description = open('README.rst').read()
 
 setup(
         name = 'iterutils',
-        version = myversion,
+        version = iterutils_version,
         author = 'Raymond Hettinger and friends',
         author_email = '',
         license = 'http://docs.python.org/license.html',

@@ -9,6 +9,8 @@ http://stackoverflow.com/questions/1639772
 
 from itertools import *
 
+iterutils_version = '0.1.6'
+
 def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))
