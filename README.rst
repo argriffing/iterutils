@@ -2,17 +2,17 @@
 About iterutils
 ===============
 
-These functions have been copied from the recipes
-in the Python documentation for itertools:
-http://docs.python.org/library/itertools.html#recipes
+These functions have been taken from the recipes_
+in the Python documentation for itertools.
+They were originally written by
+Raymond Hettinger and various other people.
 
-The following license applies to the Python documentation:
-http://docs.python.org/license.html#terms-and-conditions-for-accessing-or-otherwise-using-python
+This license_
+applies to the Python documentation.
 
 The idea to collect all of the itertools recipes into
-a module named iterutils.py is from this post
-by Alex Martelli on stackoverflow:
-http://stackoverflow.com/questions/1639772
+a module named iterutils is from this post_
+by Alex Martelli.
 
 
 Installation
@@ -33,3 +33,8 @@ its functions can be imported and used as follows::
     >>> import iterutils
     >>> list(iterutils.pairwise('abc'))
     [('a', 'b'), ('b', 'c')]
+
+
+.. _recipes: http://docs.python.org/library/itertools.html#recipes
+.. _license: http://docs.python.org/license.html#terms-and-conditions-for-accessing-or-otherwise-using-python
+.. _post: http://stackoverflow.com/questions/1639772
