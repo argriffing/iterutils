@@ -1,3 +1,4 @@
+
 About iterutils
 ===============
 
@@ -12,3 +13,23 @@ The idea to collect all of the itertools recipes into
 a module named iterutils.py is from this post
 by Alex Martelli on stackoverflow:
 http://stackoverflow.com/questions/1639772
+
+
+Installation
+============
+
+Because iterutils has been packaged for pypi,
+it can be installed using::
+
+    $ pip install iterutils
+
+
+Usage
+=====
+
+After iterutils has been installed,
+its functions can be imported and used as follows::
+
+    >>> import iterutils
+    >>> list(iterutils.pairwise('abc'))
+    [('a', 'b'), ('b', 'c')]
