@@ -7,6 +7,12 @@ by Alex Martelli on stackoverflow:
 http://stackoverflow.com/questions/1639772
 """
 
+try:
+    from itertools import ifilter, imap, izip
+except ImportError:
+    # We're on Python 3.X
+    ifilter, imap, izip = filter, map, zip
+
 from itertools import *
 
 iterutils_version = '0.1.6'
